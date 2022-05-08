@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.content {
+    font-size: 30px;
+   padding: 50px;
+   text-align: center;
+   background-image: url('../../assets/image/ice_cream_bg.jpg'); 
+   overflow: hidden;
+   background-position: 0px;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+nav {
+    background-color: #E4D1B9;
+    padding: 10px;
+    top: 0;
+    text-align: center;
+}
+
+nav a {
+    font-size: 25px;
+    font-weight: 600;
+    color: #A97155;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 30px;
+    display: inline;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+main {
+    padding: 50px;
+    overflow: auto;
+} 
+
+#slide {
+    float: left;
+    width: 75%;
+    align-items: center;
+}
+
+.swiper {
+    width: 80%;
+    height: fit-content;
+}
+
+.swiper-slide img {
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: #E4D1B9;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: #E4D1B9;
+}
+
+
+.card {
+    box-shadow: 4px 4px 4px 4px #e4d1b9e8;
+    flex-basis: 30%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: #A97155;
+}
+
+section{
+    padding: 5px;
+    text-align: center;
+}
+
+section a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #BE8C63;
+    text-decoration: none;
+}
+
+section li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 35px;
+}
+
+.menupopuler {
+    float: left;
+    width: 100%;
+}
+
+.menupopuler img {
+    border-radius: 15px;
+}
+
+.menupopuler p {
+    text-align: justify;
+    color: #A97155;
+    margin: 30px auto;
+}
+
+.menupopuler b {
+    line-height: 25px;
+}
+
+footer {
+    padding: 25px;
+    color: #A97155;
+    background-color: #E4D1B9;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) { 
+#slide,
+    aside {
+    width: 100%;
+    padding: 0;
+    }
+
+    img {
+    flex-basis: 30%;
+     width: 250px;
+     height: 250px;
+     padding: 10px;
+     margin: 10px;
+     border-radius: 15px;
+    }
+
+    .flex-row {
+        display: inherit;
+    }
+
+    .card2 {
+        box-shadow: 4px 4px 4px 4px #e4d1b9e8;
+        flex-basis: 30%;
+        text-align: center;
+        border-radius: 15px;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .menupopuler img {
+        width: 100%;
+        border-radius: 15px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .menupopuler p {
+        text-align: center;
+        color: #A97155;
+        margin: 30px auto;
+    }
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HyoukaBren</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="page icon" href="assets/image/logo_icescream.png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+</head>
+
+<body>
+    <header>
+       <div class="content">
+           <img src="assets/image/logo_icescream.png" width="350" height="350">
+           <h1><font color="9FB4FF"><b>Hyouka</font> <font color="A97155"><b>Bren</font></b></h1>
+       </div>
+       <nav>
+           <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="about">About</a></li>               
+           </ul>
+       </nav>
+    </header>
+    <main>
+        <div id="slide">
+        <article id="Latest Menu" class="card">
+            <h2>Latest Menu</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="assets/image/icecream.jpg" class="image" alt="Ice Cream" width="500px" height="500px"></div>
+                  <div class="swiper-slide"><img src="assets/image/dango.jpg" class="image" alt="Ice Cream" width="500px" height="500px"></div>
+                  <div class="swiper-slide"><img src="assets/image/float.jpg" class="image" alt="Ice Cream" width="500px" height="500px"></div>
+                    <div class="swiper-slide"><img src="assets/image/mochi.jpg" class="image" alt="Ice Cream" width="500px" height="500px"></div>
+                    <div class="swiper-slide"><img src="assets/image/waffle.jpg" class="image" alt="Ice Cream" width="500px" height="500px"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+
+        </div>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay: {
+                   Delay: 3000,
+                   disableOnInteraction: false,
+                },
+                loop: true,
+
+                pagination: {
+                  el: '.swiper-pagination',
+                  clickable: true,
+                },
+
+                navigation: {
+                  nextEl: '.swiper-button-next',
+                  prevEl: '.swiper-button-prev',
+                },
+              });
+        </script>
+
+        <aside>
+            <article class="profile card">
+                <header>
+                    <h2>Menu</h2>
+                </header>
+                <section>
+                    <div class="menu">
+                <ul>
+                  <p><li><a href="icecream">Ice Cream</a></li></p>
+                  <p><li><a href="float">Float</a></li></p>
+                  <p><li><a href="dango">Dango</a></li></p>
+                  <p><li><a href="mochi">Mochi</a></li></p>
+                  <p><li><a href="waffle">Waffle</a></li></p>
+                </ul> </div>
+                </section>
+            </article>
+        </aside>
+
+        <div class="menupopuler">
+            <article id="menu" class="card">
+                <h2 id="menupopuler">Menu Populer</h2>
+
+                <img src="assets/image/icecream_float.jpg" width="130" height="100" alt="float" style="float: left; margin: 10px;">
+                <p><b>Ice Cream Float</b><br><font color="#9FB4FF"><b>Rp. 26.000</b></font></p>
+                <p>Es krim soda atau float, coke float atau Snowball, atau spider, adalah sebuah minuman yang terdiri dari es krim pada minuman ringan atau campuran sirup dan air berkarbonasi.</p>
+               
+                <img src="assets/image/waffle_icecream.jpg" width="130" height="100" alt="waffle" style="float: left; margin: 10px;">
+                <p><b>Waffle Ice Cream</b><br><font color="#9FB4FF"><b>Rp. 60.000</b></font></p>
+                <p>Wafel dengan topping es krim akan menjadi hidangan penutup yang sempurna. Teksturnya yang manis dan sedikit padat dan creamy banyak sekali para remaja yang menyukai menu ini.</p>
+            </article>
+        </div>
+    </main>
+
+    <footer>
+        <p>Submission Belajar Dasar Pemrograman Web &#169; 2022 - Theodorus Christian Siringo Ringo</p>
+    </footer>
+</body>
+
+</html>
