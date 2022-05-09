@@ -139,12 +139,23 @@ section li {
     line-height: 25px;
 }
 
+.profile img {
+    border-radius: 200px;
+}
+
+.profile section {
+    color: #A97155;
+}
+
+.profile figcaption{
+    color: #A97155;
+}
+
 footer {
     padding: 25px;
     color: #A97155;
     background-color: #E4D1B9;
     text-align: center;
-    font-weight: bold;
 }
 
 @media screen and (max-width: 1000px) { 
